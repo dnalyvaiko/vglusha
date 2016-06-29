@@ -1,0 +1,125 @@
+body {
+  background: rgb(236, 236, 236);
+  /* font-family: 'Forum', cursive; */
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 140px;
+  position: relative;
+}
+
+header h1 {
+  margin: 0px 0px 0px 201px;
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+header h3 {
+  margin: 0px 0px 0px 201px;
+  font-size: 25px;
+  color: rgb(134, 134, 134);
+}
+
+header img {
+  height: 100px;
+  position: absolute;
+  top: 19px;
+  left: 30px;
+  float: left;
+}
+
+input {
+  position: absolute;
+  bottom: 19px;
+  right: 19px;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  width: 360px;
+  height: 45px;
+  border: 0;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  width: 100%;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  border: 1.5px solid rgb(202, 202, 202);
+}
+
+nav a {
+  padding: 0px 29px;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+  color: white;
+  background: rgb(87, 148, 104);
+}
+
+main {
+  margin: 30px 0px 20px 0px;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 90px;
+}
+
+#content {
+  width: 921px;
+  float: left;
+  padding: 0px 19px 19px 30px;
+}
+
+ol {
+  margin-top: 70px;
+  font-size: 18px;
+}
+
+#content img {
+  float: left;
+  height: 350px;
+  margin-right: 19px;
+}
+
+#content p {
+  font-size: 20px;
+}
+
+#sidebar {
+  width: 319px;
+  border-left: 2px solid rgb(202, 202, 202);
+  float: left;
+  margin-right: 30px;
+  padding-left: 19px;
+  text-transform: uppercase;
+
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background: rgb(87, 148, 104);
+  clear: both;
+  padding-top: 19px;
+
+}
+
+footer p {
+  margin: 5px 5px 5px 30px;
+}
