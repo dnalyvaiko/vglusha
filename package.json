@@ -1,0 +1,23 @@
+{
+  "name": "vglusha",
+  "version": "1.0.0",
+  "description": "The site of Velyka Glusha Village Council",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnalyvaiko/vglusha.git"
+  },
+  "keywords": [],
+  "author": "Dmytro Nalyvaiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnalyvaiko/vglusha/issues"
+  },
+  "homepage": "https://github.com/dnalyvaiko/vglusha#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
