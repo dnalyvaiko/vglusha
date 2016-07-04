@@ -5,7 +5,9 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglifyjs'),
     cssnano = require('gulp-cssnano'),
     rename = require('gulp-rename'),
-    del = require('del');
+    del = require('del'),
+    imagemin = require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant');
 
 gulp.task('sass', function(){
     return gulp.src('app/sass/**/*.scss')
